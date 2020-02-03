@@ -14,4 +14,3 @@ with open(text_file, 'rb') as fs:
     csFT.send(b'ENDED') # I used the same size of the BEGIN token
     fs.close()
 
-    #extra stuff
